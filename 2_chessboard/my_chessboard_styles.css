@@ -18,3 +18,37 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+
+body{
+  background-image: url(grey.png);
+  color: #F88017;
+  /* http://www.w3schools.com/cssref/css3_pr_text-shadow.asp */
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+.board{
+ border: 5px #008080 solid;
+ margin: 35px auto ;
+ /*margin: auto auto ; - This got it close, but I had to add the 35 before auto to get it right*/
+ /*margin-top: 36px;*/
+}
+
+.square{
+  font-size: 48px;
+  font-style: bold;
+  width: 71.5px;
+  height: 71.5px;
+}
+
+.dark_square{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#19a7a7+0,007e7e+100 */
+  background: rgb(25,167,167); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(25,167,167,1) 0%, rgba(0,126,126,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(25,167,167,1)), color-stop(100%,rgba(0,126,126,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  rgba(25,167,167,1) 0%,rgba(0,126,126,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  rgba(25,167,167,1) 0%,rgba(0,126,126,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  rgba(25,167,167,1) 0%,rgba(0,126,126,1) 100%); /* IE10+ */
+  background: linear-gradient(135deg,  rgba(25,167,167,1) 0%,rgba(0,126,126,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19a7a7', endColorstr='#007e7e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}

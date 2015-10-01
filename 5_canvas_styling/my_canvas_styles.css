@@ -1,0 +1,64 @@
+
+body {
+  font-size: 6pt;
+  font-family: arial;
+}
+
+td {
+  vertical-align: top;
+}
+
+.canvas_section{
+  border:thin black solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+ul{
+padding: 0px;
+margin-top:0px;
+list-style-type: none;
+margin-bottom:0px;
+}
+
+ol{
+  list-style-type: decimal;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+li{
+
+  /*originally had list style type here but was messing some things up. Put on ul instead*/
+  /*text-align: left; -- that didnt work. lets pad the parent element instead (ul)*/
+}
+
+h3{
+  text-transform: uppercase;
+  padding-bottom:0px;
+   padding-top:8px;
+  margin:0px;
+  font-size:8px;
+}
+
+h4{
+padding:0px;
+margin:0px;
+}
+
+.sublist{
+  font-style: italic;
+  /*padding:0px;*/
+}
+
+.wide_input{
+  width:90%;
+}
+
+p{
+padding:0px;
+margin:0px;
+}

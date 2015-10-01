@@ -1,9 +1,31 @@
 /* This is here to give everything a red border, just to make it easier to see while developing. */
+/*
 * {
   box-sizing: border-box;
 
   border: thin red solid;
 }
+*/
 /* You can turn it off if you want. (delete or comment it out) */
 
 /* Write your rules below */
+
+.bttn{
+  background-color: #ADD8E4;
+  border-radius: 11px; /*remember the card on the exercise in first class*/
+  /* CSS shadow generator is a good site for that */
+  box-shadow: 2px 1px 1px 0 gray; /* generally ok... gonna tweak to make closer but concept is ok*/
+  /* http://stackoverflow.com/questions/7019231/how-do-i-make-an-a-tag-the-size-of-its-parent-li-tag-for-larger-clickable-r*/
+  display:block;
+  text-align: center;
+  color: white;
+  /*http://www.htmlgoodies.com/tutorials/getting_started/article.php/3479501*/
+  text-decoration: none;
+  /* didnt work. I could set height but not vertical alignment. I suspect it is bc it deals with the relationship
+     of the class to its parent element. I guess padding is a better option
+  height: 30px;
+  vertical-align: middle;
+  */
+  padding-top:5px;
+  padding-bottom:5px;
+}
